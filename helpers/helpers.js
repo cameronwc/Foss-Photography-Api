@@ -21,12 +21,18 @@ exports.formatPixabayData = (photo) => {
     if(photo.tags) {
         alt = photo.tags.charAt(0).toUpperCase() + photo.tags.slice(1);
     }
+    let urls = {
+        'full': photo.largeImageURL,
+        'small': photo.webformatURL,
+        'thumb': photo.previewURL
+    };
     return {
         id: photo.id,
         width: photo.imageWidth,
         height: photo.imageHeight,
         display_url: photo.largeImageURL,
         download_link: photo.largeImageURL,
+        urls: urls,
         alt_text: alt,
         source: 'Pixabay'
     }
