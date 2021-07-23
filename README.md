@@ -1,4 +1,4 @@
-# Pixel Helper Api
+# Foss Photography API
 
 ![build and test](https://github.com/cameronwc/pixel-helper-api/actions/workflows/main.yml/badge.svg)
 ![codeql](https://github.com/cameronwc/pixel-helper-api/actions/workflows/codeql.yml/badge.svg)
