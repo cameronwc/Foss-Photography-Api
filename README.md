@@ -52,3 +52,7 @@ To run these test
 ```
 npm test
 ```
+
+## Architecture Diagram
+
+![Foss Arch Diagram](docs/img/foss-api.png)
